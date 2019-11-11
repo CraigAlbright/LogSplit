@@ -61,12 +61,48 @@ namespace LogSplitter.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Split is Done-zo!.
+        /// </summary>
+        internal static string DoneZo {
+            get {
+                return ResourceManager.GetString("DoneZo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File not opened or no longer exists..
+        /// </summary>
+        internal static string FileDoesntExist {
+            get {
+                return ResourceManager.GetString("FileDoesntExist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File Missing.
+        /// </summary>
+        internal static string FileDoesntExistCaption {
+            get {
+                return ResourceManager.GetString("FileDoesntExistCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap sliced_bread {
             get {
                 object obj = ResourceManager.GetObject("sliced bread", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Log file was split into {0} files. The files are in this folder {1}..
+        /// </summary>
+        internal static string SplitIsDone {
+            get {
+                return ResourceManager.GetString("SplitIsDone", resourceCulture);
             }
         }
     }

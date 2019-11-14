@@ -1,15 +1,16 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("LogSplitter")]
+[assembly: AssemblyTitle("LogSplitDotNet")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("CCAlbrightConsulting LLC")]
-[assembly: AssemblyProduct("LogSplitter")]
-[assembly: AssemblyCopyright("Craig Albright 2019")]
+[assembly: AssemblyCompany("CCAlbright Consulting LLC")]
+[assembly: AssemblyProduct("LogSplitDotNet")]
+[assembly: AssemblyCopyright("Copyright © CCAlbright Consulting LLC Inc. 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -19,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("92f7769e-3f46-48db-a265-724d48136202")]
+[assembly: Guid("2e14b8e1-551d-45bc-aa20-a5fca6440f30")]
 
 // Version information for an assembly consists of the following four values:
 //

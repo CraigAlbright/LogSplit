@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>sliced bread.ico</ApplicationIcon>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ResourcesNetCore.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DevExpress.Utils.v19.2">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 19.2\.NET Core Desktop Libraries\Bin\NetCore\DevExpress.Utils.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v19.2.UI">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 19.2\.NET Core Desktop Libraries\Bin\NetCore\DevExpress.Utils.v19.2.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v19.2">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 19.2\.NET Core Desktop Libraries\Bin\NetCore\DevExpress.XtraEditors.v19.2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\ResourcesNetCore.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ResourcesNetCore.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\ResourcesNetCore.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourcesNetCore.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

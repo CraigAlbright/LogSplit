@@ -1,4 +1,6 @@
-﻿namespace LogSplitDotNet
+﻿using System.Drawing;
+
+namespace LogSplitDotNet
 {
     partial class SplitForm
     {
@@ -122,7 +124,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::LogSplitDotNet.Properties.Resources.sliced_bread;
+            this.pictureBox1.Image = LogSplitDotNet.Properties.Resources.ResourceManager.GetObject("sliced bread") as System.Drawing.Image;
             this.pictureBox1.Location = new System.Drawing.Point(642, 51);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(98, 98);

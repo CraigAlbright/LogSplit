@@ -133,4 +133,7 @@
   <data name="DoneZo" xml:space="preserve">
     <value>Split is Done-zo!</value>
   </data>
+  <data name="sliced_bread" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sliced bread.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
